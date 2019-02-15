@@ -1,0 +1,29 @@
+#sponsor-page {
+  width: 100%;
+  text-align: center;
+  height: calc(100vh - 64px);
+}
+
+#sponsor-page > p {
+  width: 100%;
+  margin: 0;
+  padding: 30px 5%;
+  overflow: scroll;
+  display: block;
+}
+
+#sponsor-page ul#logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style-type: none;
+  flex: 1 0 30px;
+  padding-top: 20px;
+}
+
+#sponsor-page ul#logos > li img {
+  height: 50px;
+  margin: 10px 0;
+  padding: 0 10px;
+}
